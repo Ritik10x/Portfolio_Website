@@ -30,7 +30,7 @@ app.post('/DataStorage',async(req,res)=>{
 })
 
 
-Connect
-app.listen(3000,()=>{
+Connect()
+app.listen(process.env.PORT || 3000,()=>{
     console.log('port is working')
 })

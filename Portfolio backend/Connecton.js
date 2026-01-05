@@ -1,9 +1,13 @@
 const mongoose = require('mongoose')
-
-const Connect =()=>{
-    mongoose.connect('mongodb://localhost:27017/PortfolioFolder')
-    .then(()=>{console.log('Connection Folder Established')})
+require('dotenv').config()
+const Connect = async ()=>{
+    const db_url = process.env.MONGO_URL
+     mongoose.connect(db_url)
+     
     .catch((err)=>{console.log(err)})
+    console.log('MongoDB Atlas Connected Successfully')
+    
+    
 }
-Connect()
+
 module.exports=Connect
