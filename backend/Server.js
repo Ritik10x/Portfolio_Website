@@ -5,13 +5,17 @@ const { connect } = require('mongoose')
 const cors = require('cors')
 const app = express()
 app.use(express.json())
-app.use(cors())
+/*app.use(cors()) its good for testing but when deploy thats how*/
+app.use(cors({
+  origin: "https://ritik-portfolio-site.netlify.app",
+  methods: ["GET", "POST"],
+}));
 
-app.get('/Home',(req,res)=>{
+app.get('/home',(req,res)=>{
     res.send('get is Working')
 })
 
-app.post('/DataStorage',async(req,res)=>{
+app.post('/datastorage',async(req,res)=>{
     try{
 
        const{ Name,Phone,Email,Message} = req.body 
@@ -25,7 +29,7 @@ app.post('/DataStorage',async(req,res)=>{
 
     }
     catch(err){
-        res.status(500).json({Message:"Error Found in Post APi",details:err.Message})
+        res.status(500).json({Message:"Error Found in Post APi",details:err.message})
     }
 })
 
