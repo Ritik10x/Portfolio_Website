@@ -1,4 +1,4 @@
-import porPic from "../pictures/portfolioPic.JPG"
+import porPic from "../assets/images/PortfolioPic.jpg"
   
 
 const ProfilePicture=()=>{
