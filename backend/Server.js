@@ -34,7 +34,11 @@ app.post('/datastorage',async(req,res)=>{
 })
 
 
-Connect()
-app.listen(process.env.PORT || 3000,()=>{
-    console.log('port is working')
-})
+const PORT = process.env.PORT || 3000;
+
+
+Connect().then(() => {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+});
