@@ -13,7 +13,8 @@ let x = '{'
             <li className="transition-all delay-100 duration-300  hover:text-3xl ease-in-out  cursor-pointer  ml-6"><a href='#Experience'>{x}Experience</a></li>{y}
             <li className=" transition-all delay-100 duration-300  hover:text-3xl ease-in-out  cursor-pointer ml-6"><a href='#Project'>{x}Project</a></li>{y}
             <li className=" transition-all delay-100 duration-300  hover:text-3xl ease-in-out  cursor-pointer ml-6"><a href='#Skills'>{x}Skills</a></li>{y}
-            <li className=" transition-all delay-100 duration-300  hover:text-3xl ease-in-out  cursor-pointer ml-6"><a href='#Contact'>{x}About</a></li>{y}
+            <li className=" transition-all delay-100 duration-300  hover:text-3xl ease-in-out  cursor-pointer ml-6"><a href='#About'>{x}About</a></li>{y}
+            <li className=" transition-all delay-100 duration-300  hover:text-3xl ease-in-out  cursor-pointer ml-6"><a href='#Contact'>{x}Contact</a></li>{y}
            </ol>
     
     </div>

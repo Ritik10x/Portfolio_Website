@@ -1,29 +1,47 @@
-import Contact from "./Components/Contact.jsx"
-import Experience from "./Components/Expiernce.jsx"
+import Contact from "./Components/Contact.jsx";
+import Experience from "./Components/Expiernce.jsx";
+import Project from "./Components/Projects.jsx";
+import Skills2 from "./Components/Skills2.jsx";
+import About from "./Components/About.jsx";
 
-import ProfilePicture from "./Components/ProfilePhoto.jsx"
-import Project2 from "./Components/Projects2.jsx"
-import Skills from "./Components/Skills.jsx"
-import HeroSection from "./Components/HeroSection.jsx"
+import HeroSectionDouble from "./Components/HeroSectionDouble.jsx";
+import NavBar from "./Components/Navbar.jsx";
+import NavBar2 from "./Components/Navbar2.jsx";
 
-
-import NavBar from "./Components/Navbar.jsx"
-
-function App(){
-
- 
-  return(
+function App() {
+  return (
     <>
-      <NavBar/>
+      {/* <NavBar /> */}
+      <NavBar2 />
+
       <main>
-      
-      <section id="home"><HeroSection/></section>
-      <section id="Experience"><Experience/></section>
-      <section id="Project"><Project2/></section>
-      <section id="Skills"><Skills/></section>
-      <section id="Contact"><Contact/></section>
+        <section id="home">
+          <HeroSectionDouble />
+        </section>
+
+        <section id="Experience">
+          <Experience />
+        </section>
+
+        <section id="Project">
+          <Project />
+        </section>
+
+        <section id="Skills">
+          <Skills2 />
+        </section>
+
+        {/* 👇 ABOUT SECTION ADDED HERE */}
+        <section id="About">
+          <About />
+        </section>
+
+        <section id="Contact">
+          <Contact />
+        </section>
       </main>
     </>
-  )
+  );
 }
-export default App
+
+export default App;
