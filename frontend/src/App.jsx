@@ -5,7 +5,7 @@ import Skills2 from "./Components/Skills2.jsx";
 import About from "./Components/About.jsx";
 
 import HeroSectionDouble from "./Components/HeroSectionDouble.jsx";
-import NavBar from "./Components/Navbar.jsx";
+
 import NavBar2 from "./Components/Navbar2.jsx";
 
 function App() {

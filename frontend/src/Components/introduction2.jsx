@@ -45,10 +45,11 @@ const Introduction2 = () => {
         className="flex gap-4 pt-4"
       >
         <a
-          href="#projects"
+          href="https://github.com/Ritik10x"
+          target="blank"
           className="px-6 py-2 border border-black font-semibold hover:bg-black hover:text-white transition"
         >
-          View Projects
+          GitHub Profile
         </a>
 
         <a
