@@ -37,7 +37,9 @@ const NavBar = () => {
           transition={{ delay: 0.4 }}
           className="absolute left-8 font-mono font-extrabold text-lg leading-tight text-black"
         >
-          {x} MERN STACK <br /> DEVELOPER {y}
+          {/* {x}  */}
+          Trust Me,  <br /> <u>I’m an Engineer</u> 
+          {/* {y} */}
         </motion.div>
 
         {/* Nav Links */}
@@ -52,7 +54,7 @@ const NavBar = () => {
             >
               <a
                 href={item.href}
-                className="flex items-center gap-2 text-black font-semibold tracking-wide"
+                className="flex items-center gap-2 text-black font-bold tracking-wide"
               >
                 {/* Icon */}
                 <span className="text-sm opacity-70 group-hover:opacity-100 transition">
