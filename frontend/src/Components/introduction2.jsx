@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+
 
 const Introduction2 = () => {
   return (
@@ -46,9 +48,11 @@ const Introduction2 = () => {
       >
         <a
           href="https://github.com/Ritik10x"
-          target="blank"
-          className="px-6 py-2 border border-black font-semibold hover:bg-black hover:text-white transition"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 border border-black font-semibold flex items-center gap-2 hover:bg-black hover:text-white transition"
         >
+          <FaGithub className="text-lg" />
           GitHub Profile
         </a>
 
@@ -56,7 +60,7 @@ const Introduction2 = () => {
           href="/RITIK_JAN_14_2026_SWE_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          
+
           className="px-6 py-2 border border-black font-semibold hover:bg-black hover:text-white transition"
         >
           Resume
