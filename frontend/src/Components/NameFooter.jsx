@@ -15,7 +15,7 @@ const NameFooter=()=>{
         <>
        <div className="p-">
         <h1 className=" text-center 
-        font-mono font-bold text-[137px] md:text-[245px]">RITIK SINGH</h1>
+        font-mono font-bold text-[115px] md:text-[245px]">RITIK SINGH</h1>
        </div> 
        <div className=" flex justify-between">
         <p className="font-mono pl-6">{date}</p>
