@@ -1,5 +1,7 @@
 import { MdArrowOutward } from "react-icons/md";
 import { easeInOut, motion } from "framer-motion";
+import { IoCallOutline } from "react-icons/io5";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
 
@@ -22,10 +24,10 @@ const Footer = () => {
                         transition={{ duration: 0.6 }}
                         viewport={{ once: true }}
 
-                        className="font-mono font-bold text-2xl md:text-4xl "
-                    >+91 6230918137</motion.h1>
-                    <h1 className="font-mono font-bold text-2xl md:text-4xl md:mr-5"
-                    >ritiksingh60101@gmail.com</h1>
+                        className="font-mono font-bold text-xl md:text-4xl "
+                    > <span className="flex "><IoCallOutline className="mt-1.5" />+91 6230918137</span></motion.h1>
+                    <h1 className="font-mono font-bold text-xl md:text-4xl md:mr-5"
+                    ><span className="flex "><AiOutlineMail className="mt-1.5 " />ritiksingh60101@gmail.com</span></h1>
                     <ol className="mt-3
             flex justify-between">
                         <li><span className="flex border-b font-mono">
