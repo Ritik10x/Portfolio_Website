@@ -73,7 +73,7 @@ const Experience = () => {
 
       {/* Animated Paragraph */}
       <motion.p
-        className="tracking-wider text-xl font-mono w-[70%] border border-gray-300 rounded-2xl shadow-md p-8 bg-white/30 backdrop-blur-md leading-relaxed"
+        className="tracking-wider text-base md:text-xl font-mono w-full md:w-[70%] border border-gray-300 rounded-2xl shadow-md p-8 bg-white/30 backdrop-blur-md leading-relaxed"
         initial="hidden"
         animate={controls}
         variants={{
