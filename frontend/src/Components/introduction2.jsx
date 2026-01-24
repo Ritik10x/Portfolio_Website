@@ -57,7 +57,7 @@ const Introduction2 = () => {
         </a>
 
         <a
-          href="/RITIK_JAN_14_2026_SWE_Resume.pdf"
+          href="/Ritik_Jan_23_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
 
