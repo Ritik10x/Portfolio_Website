@@ -27,7 +27,7 @@ const projects = [
 const Project = () => {
   return (
     <section className="font-mono w-full px-16 pt-10 pb-32">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10  ">
         {projects.map((project, index) => (
           <motion.div
             key={index}
@@ -42,7 +42,7 @@ const Project = () => {
             whileHover={{ y: -6 }}
             className="
               cursor-pointer rounded-xl
-              p-7 h-[270px]
+              p-7  md:h-[270px]
               border border-gray-200
               flex flex-col justify-between
               bg-white text-black

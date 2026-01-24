@@ -8,11 +8,13 @@ import HeroSectionDouble from "./Components/HeroSectionDouble.jsx";
 
 import NavBar2 from "./Components/Navbar2.jsx";
 
+
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
+     
       <NavBar2 />
+      
 
       <main>
         <section id="home">

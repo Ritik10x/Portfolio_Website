@@ -5,7 +5,7 @@ import ThreeBackgroundDouble from "./ThreeBackgroundDouble";
 
 const HeroSectionDouble = () => {
   return (
-    <section className="relative min-h-screen flex items-center px-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center px-20 overflow-hidden mt-25 md:mt-0">
       <ThreeBackgroundDouble />
 
       <motion.div
