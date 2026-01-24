@@ -13,7 +13,7 @@ const NameFooter=()=>{
     
     return(
         <>
-       <div className="p-4">
+       <div className="p-">
         <h1 className=" text-center 
         font-mono font-bold text-[137px] md:text-[245px]">RITIK SINGH</h1>
        </div> 
